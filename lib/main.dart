@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'screens/tela_inicial.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -19,6 +21,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primaryColor: Colors.blue,
       ),
+      home: const InitialScreen(),
     );
   }
 }
